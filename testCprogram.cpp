@@ -25,7 +25,7 @@ int main() {
   scanf("%d", &m);
 
   printf("Even numbers between %d and %d:\n", n, m);
-  for (int i = n; i <= m; i++) {
+  for (int i = n + 1; i < m; i++) {
     if (isEvenNumber(i)) {
       printf("%d\n", i);
     }
