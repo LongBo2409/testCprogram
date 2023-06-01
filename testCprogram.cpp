@@ -12,7 +12,7 @@ int main() {
   scanf("%d", &number);
 
   if (isEvenNumber(number)) {
-    printf("%d is even.\n", number);
+    printf("%d is even.\n\n", number);
   }
   else {
     printf("%d is odd.\n\n", number);
